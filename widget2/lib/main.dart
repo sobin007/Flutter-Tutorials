@@ -85,6 +85,7 @@ class TutorialHome extends StatelessWidget {
       ),
       // body is the majority of the screen.
       body: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Center(
             child: Text('Hello World'),
@@ -123,5 +124,4 @@ class MyButton extends StatelessWidget {
     );
   }
 }
-
 
